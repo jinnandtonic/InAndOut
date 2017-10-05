@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InAndOut</string>
+    <string name="place_an_order">Place an Order</string>
+    <string name="double_double">Double Double $3.60</string>
+    <string name="cheeseburger">Cheeseburger $2.15</string>
+    <string name="fries">French Fries $1.65</string>
+    <string name="shakes">Shakes $2.20</string>
+    <string name="drinks">Fountain Drinks (pick size)</string>
+    <string name="drink_small">Small $1.45</string>
+    <string name="drink_med">Medium $1.55</string>
+    <string name="drink_lg">Large $1.75</string>
+    <string name="order_button">Place Order</string>
+    <string name="prefs_key">edu.orangecoastcollege.cs273.rmillett.InAndOut</string>
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order_background"
+    android:padding="@dimen/global_padding"
+    tools:context="edu.orangecoastcollege.cs273.rmillett.inandout.OrderActivity">
+
+
+    <TextView
+        android:id="@+id/placeOrderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="0"
+        android:padding="@dimen/global_padding"
+        android:text="@string/place_an_order"
+        android:textSize="@dimen/header_text_size"/>
+
+    <TextView
+        android:id="@+id/doubleDoubleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_row="1"
+        android:padding="@dimen/global_padding"
+        android:text="@string/double_double"/>
+
+    <TextView
+        android:id="@+id/chzBrgTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_row="2"
+        android:padding="@dimen/global_padding"
+        android:text="@string/cheeseburger"/>
+
+    <TextView
+        android:id="@+id/friesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_row="3"
+        android:padding="@dimen/global_padding"
+        android:text="@string/fries"/>
+
+    <TextView
+        android:id="@+id/shakesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_row="4"
+        android:padding="@dimen/global_padding"
+        android:text="@string/shakes"/>
+
+    <TextView
+        android:id="@+id/drinkSmTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:padding="@dimen/global_padding"
+        android:text="@string/drink_small"/>
+
+    <TextView
+        android:id="@+id/drinkMdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_row="7"
+        android:padding="@dimen/global_padding"
+        android:text="@string/drink_med"/>
+
+    <TextView
+        android:id="@+id/drinkLgTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_row="8"
+        android:padding="@dimen/global_padding"
+        android:text="@string/drink_lg"/>
+
+    <TextView
+        android:id="@+id/drinksTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:padding="@dimen/global_padding"
+        android:text="@string/drinks"/>
+
+    <EditText
+        android:id="@+id/largeDrinksEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="8"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/doubleDoubleEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/cheeseburgerEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/friesEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/shakesEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/smallDrinksEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="6"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/mediumDrinksEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="7"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/global_padding"
+        android:layout_row="9"
+        android:onClick="placeOrder"
+        android:padding="@dimen/global_padding"
+        android:text="@string/order_button"/>
+</GridLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/summary_background"
+    android:orientation="vertical"
+    tools:context="edu.orangecoastcollege.cs273.rmillett.inandout.SummaryActivity">
+
+    <TextView
+        android:id="@+id/orderTotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_marginTop="100dp"
+        android:padding="@dimen/global_padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/itemsOrderedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:padding="@dimen/global_padding" />
+
+    <TextView
+        android:id="@+id/subtotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:padding="@dimen/global_padding" />
+
+    <TextView
+        android:id="@+id/taxTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:padding="@dimen/global_padding" />
+
+    <Button
+        android:id="@+id/startNewOrderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/global_margin_left"
+        android:layout_marginTop="50dp"
+        android:onClick="startNewOrder"
+        android:padding="@dimen/global_padding"
+        android:text="Start a New Order" />
+
+
+</LinearLayout>
